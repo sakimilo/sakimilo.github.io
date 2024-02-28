@@ -1,7 +1,7 @@
 import qrcode
 
 ### Generating study_bear url qr code
-study_bear_qr = qrcode.make("https://sakimilo.github.io/study_bear")
+study_bear_qr = qrcode.make("https://sakimilo.github.io/winnie_the_study_bear")
 study_bear_qr.save("./qrcode_images/study_bear_qr.jpg")
 
 ### Generating marketing_persona url qr code
